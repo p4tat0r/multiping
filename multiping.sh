@@ -9,6 +9,8 @@ list[4]=xkcd.com
 list[5]=arstechnica.com
 list[6]=www.wired.com
 list[7]=sfr.fr
+list[8]=actu.fr
+list[9]=wanadoo.fr
 
 array=$(for i in "${list[@]}"; do ping -c 1 $i |  egrep -o "([0-9.]+) ms$" -m 1 | sed -n -e "s/ms/ms = ${i}/p" ; done)
 IFS=$'\n' sorted=($(sort -n <<<"${array[*]}")); unset IFS
