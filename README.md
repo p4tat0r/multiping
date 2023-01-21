@@ -9,3 +9,8 @@ You can use any language and I don't care about how ugly is the output, as long 
   
 So in the same vein as [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition), I decided to write this script in as many languages as I could.  
 You are welcome to participate, adding the script in a language that's not here.
+
+## Other things to note
+
+ - I don't add any external package / library by package manager, but can copy data
+ - I develop under windows, so it's ```ping -n 1```, except for the .sh script
